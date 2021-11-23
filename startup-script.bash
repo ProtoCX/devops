@@ -25,9 +25,9 @@ apt-get install -y docker-ce docker-ce-cli containerd.io
 
 python3 -m pip install docker-compose
 
-curl -fsSL https://deb.nodesource.com/setup_10.x | bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 apt-get install -y nodejs
-npm install --global yarn@1.22.10
+npm install --global yarn@1.22.15
 
 apt --purge autoremove -y
 apt autoclean -y
