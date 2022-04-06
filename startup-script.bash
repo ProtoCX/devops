@@ -33,7 +33,7 @@ echo \
 apt update
 apt-get install -y docker-ce docker-ce-cli containerd.io
 
-python3 -m pip install docker-compose
+python3.10 -m pip install -U docker-compose
 
 curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt-get install -y nodejs
