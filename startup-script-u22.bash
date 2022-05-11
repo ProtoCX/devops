@@ -30,7 +30,7 @@ python3 -m pip install -U docker-compose
 
 echo "Install node and yarn"
 curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-apt-get install -y nodejs
+apt-get install -y nodejs npm
 npm install --global yarn@1.22.15
 
 echo "Finish"
