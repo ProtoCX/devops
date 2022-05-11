@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash -x
 apt update
 
 apt -y install git zsh tmux htop curl python3.8 python3.8-venv python3-pip wget xauth x11-apps tig postgresql-client-12 jq gitk rsync vim 
