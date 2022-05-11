@@ -7,6 +7,9 @@ apt -y install git zsh tmux htop curl python3 python3-venv python3-pip python3-a
 echo "Install gloud util"
 sudo apt install -y cloud-guest-utils 
 
+echo "Setup python"
+update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
+
 echo "Install Docker"
 apt-get remove docker docker-engine docker.io containerd runc
 apt-get install -y \
