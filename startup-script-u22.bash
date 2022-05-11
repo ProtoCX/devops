@@ -2,7 +2,7 @@
 apt update
 
 echo "install basic packages"
-apt -y install git zsh tmux htop curl python3 python3-venv python3-pip python3-apt wget xauth x11-apps tig postgresql-client-12 jq gitk rsync vim 
+apt -y install git zsh tmux htop curl python3 python3-venv python3-pip python3-apt wget xauth x11-apps tig postgresql-client jq gitk rsync vim 
 
 echo "Install gloud util"
 sudo apt install -y cloud-guest-utils 
