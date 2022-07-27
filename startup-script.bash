@@ -49,3 +49,6 @@ npm install --global yarn@1.22.15
 echo "Finish"
 apt --purge autoremove -y
 apt autoclean -y
+
+docker system prune -f
+
